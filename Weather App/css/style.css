@@ -1,0 +1,130 @@
+
+  .border{
+    padding: 20px 10px;
+    position: relative;
+    justify-content: center;
+    display: block;
+    background-color: #ecf0f1;
+    box-shadow: inset;
+    margin-top: 40px;
+    border-radius:20px;
+  }
+  
+  .search-form {
+    margin: 50px 0px 0px 10px;
+    padding: 10px ;
+    width: 250px;
+    border-radius: 5px;
+    border: 0px solid;
+    font-family: "Oxygen Mono", monospace;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*left:20%;*/
+  }
+  .search-form:hover{
+    border: 3px solid #3498db;
+    outline: 0px;
+  }
+  
+  button {
+    display: inline-block;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px ;
+    width: 60px;
+    text-align: center;
+    font-family: "Oxygen Mono", monospace;
+    font-size: 12px;
+    background-color: #3498db;
+  }
+  button:hover {
+    border: 3px solid #c7ecee;
+    outline-color: #3498db;
+    outline: 0px;
+  }
+  #searched-city{
+    margin: 20px 0 0 0;
+  }
+  .measurements {
+    position: relative;
+    left: 25px;
+    top: -10px;
+  }
+  
+  .current-weather {
+    margin-top: 50px;
+  }
+  
+  .temp-title {
+   color: #3B3C36;
+    font-size: 140px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    text-shadow:lightslategrey;
+    box-shadow: inset lightcoral;
+  }
+  
+  .todays-info {
+    margin: 15px 0;
+  }
+  
+  .side-info {
+    position: relative;
+    left: 72px;
+  }
+  
+  p,
+  ul {
+    font-family: "Oxygen Mono", monospace;
+    font-size: 15px;
+  }
+  
+  li {
+    list-style: none;
+    position: relative;
+    left: -80px;
+  }
+  
+  .week-forecast {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .weather {
+    margin-top: 2px;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  
+  h3 {
+    font-size: 22px;
+    margin-bottom: -18px;
+  }
+  
+  span {
+    font-size: 20px;
+  }
+  
+  footer {
+    position: relative;
+    top: 4px;
+    bottom: 100px;
+    text-align: center;
+  }
+  
+  a {
+    text-align: center;
+    text-decoration: none;
+    color: #0a95c9;
+  }
+  
+  a:hover {
+    color: #007bff;
+  }
+  

@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Oxygen+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/bg.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+
+    <main>
+      <section>
+        
+        <!-- search bar and city name -->
+        <section class="container">
+          <div class="row">
+            <form class="col justify-content-center align-items-center" id="search-form">
+              
+              <input
+              type="text"
+              id="search-batu"
+              aria-describedby="searchCity"
+              placeholder="Search city..."
+              class="search-form"
+              autocomplete="off"
+              />
+              <button type="submit"><i class="bi bi-search"></i></button>
+            </form> <br>
+
+        </div>
+        <!-- temp and day info -->
+        <span class="border border-5 text-center justify-content-center">
+          <div class="container">
+            <div class="row">
+              <h1 class="col temp-title" id="current-temperature"></h1>
+              <h1
+              class="col-sm-12 text-center city-title"
+              id="searched-city"
+              >  
+              <h1 class="col-sm-12 text-center konumugoster"></h1>
+            </h1>
+              <div class="col todays-info">
+                <p id="current-time"></p>
+                <h2 id="current-day"></h2>
+              </div>
+              <div class="col d-flex align-items-center side-info">
+                <ul>
+                  <li>Humidity: <span id="humidity"></span></li>
+                  <li>Wind: <span id="wind"></span></li>
+                </ul>
+              </div>           
+            </div>
+          </div>
+          <footer>
+            <p>
+              Designed by
+              <a href="https://bhamamci-portfoyv2.netlify.app/" target="_blank">batupain</a
+                >
+              </p>
+            </footer>
+          </span>
+
+      </main>
+      <script src="./js/index.js"></script>
+    </body>
+</html>
