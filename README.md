@@ -1,4 +1,4 @@
-# bhamamci-portfolyo
+# bhamamci-weatherapp
 Hello!
 
 My name is Batuhan, and I am excited to introduce my personal portfolio website, where I showcase my resume and projects.
